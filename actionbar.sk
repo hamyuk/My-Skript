@@ -1,0 +1,4 @@
+command /actionsend <text> <player>:
+    permission: op
+    trigger:
+        send action bar "%arg-1%" to arg-2
